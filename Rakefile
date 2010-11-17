@@ -2,11 +2,11 @@ begin
   require "jeweler"
 
   Jeweler::Tasks.new do |gem|
-    gem.name = "toker"
+    gem.name = "tokie"
     gem.version = "0.1"
-    gem.summary = "Simple client for the new OpenTok."
+    gem.summary = "Simple client for the new OpenTok API."
     gem.description = <<-desc
-      Simple client for the new OpenTok.
+      Simple client for the new OpenTok API.
     desc
     gem.email = "brett@intraspirit.net"
     gem.homepage = ""

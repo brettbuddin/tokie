@@ -1,4 +1,4 @@
-module Toker
+module Tokie
   class Client
     include HTTParty
     base_uri 'https://staging.tokbox.com/hl'
@@ -41,9 +41,9 @@ module Toker
         data_params[:expire_time] = options[:expire_time].to_i
       end
 
-      data_string = Toker.urlencode(data_params)
+      data_string = Tokie.urlencode(data_params)
       
-      meta_string = Toker.urlencode({
+      meta_string = Tokie.urlencode({
         :partner_id => @partner_id,
         :sdk_version => "tokbox-v#{Version}",
         :sig => sign_string(data_string, @partner_secret)

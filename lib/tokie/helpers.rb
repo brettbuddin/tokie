@@ -1,4 +1,4 @@
-module Toker
+module Tokie
   module Helpers
     def urlencode(hash)
       hash.to_a.map do |name_value|

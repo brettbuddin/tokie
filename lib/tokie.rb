@@ -2,11 +2,11 @@ require 'httparty'
 require 'base64'
 require 'cgi'
 
-require 'toker/helpers'
-require 'toker/client'
-require 'toker/version'
+require 'tokie/helpers'
+require 'tokie/client'
+require 'tokie/version'
 
-module Toker
+module Tokie
   extend self
   extend Helpers
 end
