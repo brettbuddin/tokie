@@ -1,7 +1,7 @@
 module Tokie
   class Client
     include HTTParty
-    base_uri 'https://api.opentok.com/hl'
+    base_uri 'http://staging.opentok.com/'
     format :xml
 
     attr_reader :token
